@@ -1,58 +1,33 @@
 {
-  "name": "staker",
+  "name": "nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy-contracts": "node ./scripts/deploy.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.3.2",
-    "@permaweb/stampjs": "^0.5.7",
-    "@radix-ui/react-aspect-ratio": "^1.0.3",
-    "@radix-ui/react-dialog": "^1.0.5",
-    "@radix-ui/react-hover-card": "^1.0.7",
-    "@radix-ui/react-label": "^2.0.2",
-    "@radix-ui/react-scroll-area": "^1.0.5",
-    "@radix-ui/react-select": "^2.0.0",
-    "@radix-ui/react-separator": "^1.0.3",
-    "@radix-ui/react-slot": "^1.0.2",
-    "@radix-ui/react-toast": "^1.1.5",
-    "arweave": "^1.14.4",
-    "arweave-wallet-kit": "^1.0.3",
-    "arweavekit": "^1.5.1",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "lucide-react": "^0.288.0",
-    "next": "13.5.6",
-    "next-themes": "^0.2.1",
+    "@radix-ui/react-alert-dialog": "^1.1.4",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-slot": "^1.1.1",
+    "arweave-wallet-kit": "^1.0.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "next": "14.2.11",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.47.0",
-    "react-responsive": "^9.0.2",
-    "sharp": "^0.31.3",
-    "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.7",
-    "warp-contracts": "^1.4.21",
-    "warp-contracts-plugin-signature": "^1.0.17",
-    "zod": "^3.22.4"
+    "shadcn-ui": "^0.9.4",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "autoprefixer": "^9.0.0",
-    "esbuild": "^0.19.5",
+    "arconnect": "^1.0.4",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6",
+    "eslint-config-next": "14.2.11",
     "postcss": "^8",
-    "replace-in-file": "^7.0.1",
-    "tailwindcss": "^3",
-    "typescript": "^5",
-    "warp-contracts-plugin-deploy": "^1.0.9"
-  },
-  "caaMetadata": {
-    "initVersion": "0.1.4"
-  },
-  "packageManager": "npm@10.9.0"
+    "tailwindcss": "^3.4.1"
+  }
 }
