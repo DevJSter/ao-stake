@@ -1,13 +1,12 @@
 {
-  "name": "staker",
+  "name": "nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy-contracts": "node ./scripts/deploy.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
@@ -41,18 +40,10 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "autoprefixer": "^9.0.0",
-    "esbuild": "^0.19.5",
+    "arconnect": "^1.0.4",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6",
+    "eslint-config-next": "14.2.11",
     "postcss": "^8",
-    "replace-in-file": "^7.0.1",
-    "tailwindcss": "^3",
-    "typescript": "^5",
-    "warp-contracts-plugin-deploy": "^1.0.9"
-  },
-  "caaMetadata": {
-    "initVersion": "0.1.4"
-  },
-  "packageManager": "npm@10.9.0"
+    "tailwindcss": "^3.4.1"
+  }
 }
