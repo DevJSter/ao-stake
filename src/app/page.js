@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Wallet, ArrowRightLeft, Lock } from "lucide-react";
+import "./globals.css";
 
 const App = () => {
   const [isConnected, setIsConnected] = useState(false);
